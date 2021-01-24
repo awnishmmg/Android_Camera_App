@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/iv_camera"
+        android:layout_height="100dp"
+        android:src="@drawable/camera"
+  />
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_width="100dp"
+        android:textAllCaps="false"
+        android:text="Capture"
+        android:id="@+id/btn_capture"
+        android:layout_height="80dp"/>
+
+</LinearLayout>
